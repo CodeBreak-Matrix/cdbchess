@@ -31,7 +31,7 @@ project/
 ├── ai_logic.py           # AI-related logic
 ├── logic.py              # Additional game logic
 ├── player_cont.py        # Player control logic
-├── dynam.py              # Dynamic calculations
+├── dynam.py              # Dynamic path calculation
 ├── dimens.py             # Dimensions or settings
 └── requirements.txt      # Python dependencies
 ```
