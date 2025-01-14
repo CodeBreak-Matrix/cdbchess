@@ -18,11 +18,11 @@ This is a Python-based chess game featuring an AI opponent. The project includes
 ```
 project/
 ├── audio/                # Folder containing audio files
-│   ├── checkmate_sound_white.mp3
-│   ├── checkmate_sound_black.mp3
-│   ├── check_sound.mp3
-│   └── ...
-├── images/               # Folder containing image files
+│   ├── win_jingle.mp3
+│   ├── loss_jingle.mp3
+│   ├── check_jingle.mp3
+│   └── chess_titans_jingle
+├── images/               # Folder containing image files of all chess pieces
 │   ├── board.png
 │   ├── white_king.png
 │   ├── black_queen.png
@@ -120,6 +120,8 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 
 - [python-chess](https://python-chess.readthedocs.io/) for chess logic and move validation.
 - [pygame](https://www.pygame.org/) for the graphical interface.
+- [green_chess](https://greenchess.net/info.php?item=downloads) for the chess piece images.
+- [Anthony Cassimiro](https://www.youtube.com/watch?v=EarwdD8Eq_0) for the in game sounds.
 
 ---
 
